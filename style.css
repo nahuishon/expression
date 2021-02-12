@@ -1,10 +1,11 @@
-@font-face{
-    font-family: "JetBrainsMono_Thin";
-    src: url("JetBrainsMono-Thin.woff2") format("woff2");
-}
+
 @font-face{
     font-family: "JetBrainsMono-Bolditalic";
     src: url("JetBrainsMono-BoldItalic.woff2") format("woff2");
+}
+@font-face{
+    font-family: "JetBrainsMono-Light";
+    src: url("JetBrainsMono-Light.woff2") format("woff2");
 }
 @font-face{
     font-family: "aileron_ultralight";
@@ -18,6 +19,15 @@
     font-family: "aileron_semibold";
     src: url("aileron_semibold.ttf") format("ttf");
 }
+@font-face{
+    font-family: "Career";
+    src: url("Career.otf") format("otf");
+}
+@font-face{
+    font-family: "Hanken-Light";
+    src: url("Hanken-Light.ttf") format("ttf");
+}
+
 
 * {
     margin: 0;
@@ -32,7 +42,7 @@ body {
     color: #EFEAEA;
     overflow: hidden;
     text-decoration: none;
-    width: 100%;
+    
   }
   
   
@@ -44,35 +54,36 @@ body {
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
   }
-  a { color:#fff8f8;
+  a { color:#ffdada;
     text-decoration:none;
     }
   
   .lead {
-    font-size: 20px;
-    font-family: 'aileron_ultralight';
+    font-size: 15px;
+    font-family: 'JetBrainsMono-Light';
     text-align: center;
     padding: 2px;
-    font-family: 'aileron_regular';
-    margin-left: 700px;
-    line-height: 10px;
-    margin-right: 100px;
-    line-height: 30px;
-    color: rgb(255, 254, 254);
+    margin-left: 850px;
+    margin-top: -70px;
+   margin-bottom: 160px;
+    margin-right: 90px;
+    line-height: 14px;
+    color: rgb(248, 213, 213);
     opacity: 100%;
     text-decoration: none;
+    font-style: oblique 70deg;
   }
   .lead2 {
-    font-size: 20px;
-    font-family: 'aileron_ultralight';
-    text-align: center;
+    font-size: 17px;
+    font-family: 'Career';
+    text-align: left;
     padding: 12px;
-    font-family: 'aileron_regular';
-    margin-left: 260px;
-    margin-right: 260px;
-    margin-bottom: -310px;
-    line-height: 30px;
-    color: rgb(255, 254, 254);
+    font-family: 'JetBrainsMono-Light';
+    margin-left: 60px;
+    margin-top: 70px;
+    margin-right: 760px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
     opacity: 100%;
     text-decoration: none;
   }
@@ -129,13 +140,16 @@ body {
     font-size: 13rem;
     text-decoration: none;
     color: #f78282;
+    font-weight: 100;
   }
 
   section h2 {
-      font-family: 'JetBrainsMono_Thin';
-    font-size: 4rem;
-    color: #e67d7d;
-    margin-top: -300px;
+      font-family: 'JetBrainsMono-Bolditalic';
+    font-size: 3rem;
+    color: #fffefe;
+    margin-top: -50px;
+    margin-left: 100px;
+    line-height: -40px;
   }
 
   section video{
