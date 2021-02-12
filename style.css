@@ -188,7 +188,9 @@ section#service {
     background-size: 90%;
     background-position: center;
     opacity: 80%;
-   
-   
+  }
+
+  .under{
+    font-style: underline;
   }
   
