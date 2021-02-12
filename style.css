@@ -1,6 +1,14 @@
 @font-face{
-    font-family: 'aileron_light';
-    src: url('aileron.otf/aileron_light.woff') format(woff);
+    font-family: "JetBrainsMono_Thin";
+    src: url("JetBrainsMono-Thin.woff2") format("woff2");
+}
+@font-face{
+    font-family: "JetBrainsMono-Bolditalic";
+    src: url("JetBrainsMono-BoldItalic.woff2") format("woff2");
+}
+@font-face{
+    font-family: "aileron_ultralight";
+    src: url("aileron_ultralight.ttf") format("ttf");
 }
 body{
 
@@ -19,17 +27,21 @@ video{
 }
 
 .header{
-    border:1px solid darkseagreen;
-    font-family: 'aileron_light';
+    font-family: 'JetBrainsMono_Thin';
 }
 
 h1{
-    font-size: 30px;
+    font-size: 80px;
     color:aquamarine;
 }
 h2{
-    font-size: 30px;
-    color: aqua;
+    font-size: 20px;
+    color: rgb(235, 238, 238);
+    font-family: 'JetBrainsMono-Bolditalic';
+}
+h3{
+    font-size: 14px;
+    font-family: 'JetBrainsMono-Bolditalic';
 }
 
 .body-text{
@@ -38,17 +50,37 @@ h2{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-family: 'aileron_light';
+    font-family: 'JetBrainsMono_Thin';
+    margin-left:300px;
+    margin-right: 300px;
+    letter-spacing: 1px;
 }
 
 
 .wrapper{
     display: flex;
-    
+    font-family: 'JetBrainsMono_Thin';
 }
-
+  
 .title2{
     font-size: 30px;
    text-align: center;
+}
+
+h4{
+    font-family: 'JetBrainsMono-Bolditalic';
+     color:antiquewhite;
+}
+
+h5{
+    font-family: 'JetBrainsMono-Bolditalic';
+}
+
+p.pink{
+    font-family: 'JetBrainsMono-Bolditalic';
+    font-size: 20px;
+    margin-left:300px;
+    margin-right: 300px;
+    line-height: 30px;
 }
 
