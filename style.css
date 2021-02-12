@@ -63,7 +63,7 @@ body {
     font-family: 'JetBrainsMono-Light';
     text-align: center;
     padding: 2px;
-    margin-left: 850px;
+    margin-left: 750px;
     margin-top: -70px;
    margin-bottom: 160px;
     margin-right: 90px;
@@ -79,9 +79,9 @@ body {
     text-align: left;
     padding: 12px;
     font-family: 'JetBrainsMono-Light';
-    margin-left: 60px;
+    margin-left: 160px;
     margin-top: 70px;
-    margin-right: 760px;
+    margin-right: 660px;
     line-height: 20px;
     color: rgb(255, 255, 255);
     opacity: 100%;
@@ -148,8 +148,8 @@ body {
     font-size: 3rem;
     color: #fffefe;
     margin-top: -50px;
-    margin-left: 100px;
-    line-height: -40px;
+    margin-left: 120px;
+    line-height: -140px;
   }
 
   section video{
@@ -179,7 +179,7 @@ section#service {
     background-repeat: no-repeat, repeat;
     background-size: 90%;
     background-position: center;
-    opacity: 90%;
+    opacity: 80%;
    
    
   }
