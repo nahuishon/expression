@@ -1,4 +1,54 @@
-h1
+@font-face{
+    font-family: 'aileron_light';
+    src: url('aileron.otf/aileron_light.woff') format(woff);
+}
+body{
 
-title.
+background-color: rgb(106, 155, 106);
+
+}
+
+video{
+    max-width: 100%;
+}
+.container{
+    border: 1px solid darkcyan;
+    text-align: center;
+    margin: 0 auto;
+   
+}
+
+.header{
+    border:1px solid darkseagreen;
+    font-family: 'aileron_light';
+}
+
+h1{
+    font-size: 30px;
+    color:aquamarine;
+}
+h2{
+    font-size: 30px;
+    color: aqua;
+}
+
+.body-text{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'aileron_light';
+}
+
+
+.wrapper{
+    display: flex;
+    
+}
+
+.title2{
+    font-size: 30px;
+   text-align: center;
+}
 
